@@ -35,30 +35,28 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        className="bg-slate-900 flex flex-col items-center justify-center h-screen"
+        className="flex h-screen flex-col items-center justify-center bg-slate-900"
         id="app"
       >
-        <div className="z-20  w-4/5 lg:w-2/3 text-center items-center justify-center flex flex-col space-y-8">
-          <div className="text-5xl lg:text-7xl font-bold text-neutral-50 font-heading">
+        <div className="z-10 flex w-4/5 flex-col items-center justify-center space-y-8 text-center lg:w-2/3">
+          <div className="font-heading text-5xl font-bold text-neutral-50 lg:text-7xl">
             Ξ OpenKind
           </div>
-          <div className="text-base lg:text-lg w-4/5 lg:w-2/5 text-neutral-300">
+          <div className="w-4/5 text-base text-neutral-300 lg:w-2/5 lg:text-lg">
             We build effective solutions to global issues through collaboration
           </div>
 
           <Link href={"https://discord.gg/R4wJ2TDshg"} passHref legacyBehavior>
-            <a className="text-base lg:text-lg border border-neutral-500 hover:bg-neutral-800  backdrop-blur-xl font-normal bg-neutral-300 bg-opacity-30 rounded-lg w-32 h-11 lg:w-44 flex items-center justify-center text-neutral-300">
+            <a className="flex h-11 w-32 items-center justify-center  rounded-lg border border-neutral-500 bg-neutral-300 bg-opacity-30 text-base font-normal text-neutral-300 backdrop-blur-xl hover:bg-neutral-800 lg:w-44 lg:text-lg">
               Contribute
             </a>
           </Link>
         </div>
-        <div className="bottom-0 fixed opacity-40">
+        <div className="fixed bottom-0 opacity-40">
           <Globe
             showGlobe={false}
             arcsData={arcsData}
             showAtmosphere={false}
-            pointAltitude="size"
-            pointColor="color"
             arcColor={"color"}
             arcDashLength={() => Math.random()}
             arcDashGap={() => Math.random()}
