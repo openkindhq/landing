@@ -31,5 +31,7 @@
     "prettier-plugin-tailwindcss": "^0.2.3",
     "tailwindcss": "^3.2.7"
   },
-  "pre-commit":["format"]
+  "pre-commit": [
+    "format"
+  ]
 }
