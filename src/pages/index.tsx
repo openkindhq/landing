@@ -30,7 +30,7 @@ export default function Home() {
     <>
       <Head>
         <title>OpenKind</title>
-        <meta name="description" content="Collaborative Social Impact" />
+        <meta name="description" content="Global issues, collaboratively solved." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
