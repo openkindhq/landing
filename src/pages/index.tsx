@@ -1,6 +1,5 @@
 import Head from "next/head";
-import { Red_Hat_Display, Poppins } from "@next/font/google";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import dynamic from "next/dynamic";
 import Link from "next/link";
 const Globe = dynamic(import("react-globe.gl"), { ssr: false });
@@ -22,6 +21,7 @@ export default function Home() {
 
   useEffect(() => {
     fetch("places.geojson")
+    
       .then((res) => res.json())
       .then(setCountries);
   }, []);
@@ -39,7 +39,6 @@ export default function Home() {
       </Head>
       <main
         className="flex h-screen flex-col items-center justify-center bg-slate-900"
-        id="app"
       >
         <div className="z-10 flex w-4/5 flex-col items-center justify-center space-y-8 text-center lg:w-2/3">
           <div className="font-heading text-5xl font-bold text-neutral-50 lg:text-7xl">
@@ -49,11 +48,19 @@ export default function Home() {
             We build effective solutions to global issues through collaboration
           </div>
 
-          <Link href={"https://discord.gg/R4wJ2TDshg"} passHref legacyBehavior>
-            <a className="flex h-11 w-32 items-center justify-center  rounded-lg border border-neutral-500 bg-neutral-300 bg-opacity-30 text-base font-normal text-neutral-300 backdrop-blur-xl hover:bg-neutral-800 lg:w-44 lg:text-lg">
-              Contribute
+        <div className="flex space-x-2">
+        <Link href={"/contributors"} passHref legacyBehavior>
+            <a className="flex h-11 w-32 items-center justify-center  rounded-lg border border-neutral-500 bg-slate-900 bg-opacity-30 text-base font-normal text-neutral-300 backdrop-blur-xl hover:bg-neutral-800 lg:w-44 lg:text-lg">
+              Contributors
             </a>
           </Link>
+          <Link href={"https://discord.gg/R4wJ2TDshg"} passHref legacyBehavior>
+            <a className="flex h-11 w-32 items-center justify-center  rounded-lg border border-neutral-500 bg-neutral-2 00  text-base font-normal text-neutral-800 hover:text-neutral-300  hover:bg-neutral-800 lg:w-44 lg:text-lg">
+              Learn more
+            </a>
+          </Link>
+        </div>
+          
         </div>
         <div className="fixed bottom-0 opacity-40">
           <Globe

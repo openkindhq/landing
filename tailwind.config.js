@@ -2,7 +2,7 @@
 const { fontFamily } = require("tailwindcss/defaultTheme");
 
 module.exports = {
-  content: ["./src/**/*.{js,ts,jsx,tsx}"],
+  content: ["./src/**/*.{js,ts,jsx,tsx}", "./node_modules/@openkind/components/**/*.js",],
   theme: {
     extend: {
       fontFamily: {
@@ -12,4 +12,5 @@ module.exports = {
     },
   },
   plugins: [],
+  presets: [require("@openkind/components/tailwind.config")]
 };
