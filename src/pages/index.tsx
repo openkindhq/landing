@@ -52,7 +52,7 @@ export default function Home() {
               </a>
             </Link>
             <Link
-              href={"https://discord.gg/R4wJ2TDshg"}
+              href={"https://github.com/openkindhq"}
               passHref
               legacyBehavior
             >
