@@ -86,7 +86,7 @@ export default function Contributors() {
             <AvatarPopover
               name="shiv"
               username="shhivv"
-              avatar="https://us-east-1.tixte.net/uploads/i.shivs.me/avatar.jpg"  
+              avatar="https://us-east-1.tixte.net/uploads/i.shivs.me/avatar.jpg"
               initial="S"
               link="https://github.com/shhivv"
               social="GitHub"

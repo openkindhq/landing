@@ -47,7 +47,7 @@ export default function Home() {
 
           <div className="flex space-x-2">
             <Link href={"/contributors"} passHref legacyBehavior>
-              <a className="flex h-11 w-32 items-center justify-center  rounded-lg border border-neutral-500 bg-slate-900 bg-opacity-30 text-base font-normal text-neutral-300 backdrop-blur-xl hover:bg-neutral-800 lg:w-44 lg:text-lg">
+              <a className="flex h-11 w-32 items-center justify-center  rounded-lg border border-neutral-500 bg-slate-900 bg-opacity-30 text-base font-normal text-neutral-300 backdrop-blur-xl hover:bg-slate-800 lg:w-44 lg:text-lg">
                 Contributors
               </a>
             </Link>
@@ -56,7 +56,7 @@ export default function Home() {
               passHref
               legacyBehavior
             >
-              <a className="bg-neutral-2 flex h-11 w-32  items-center justify-center rounded-lg border border-neutral-500 bg-neutral-200  text-base  text-neutral-800 hover:bg-neutral-800  hover:text-neutral-300 lg:w-44 lg:text-lg">
+              <a className="bg-neutral-2 flex h-11 w-32  items-center justify-center rounded-lg border border-neutral-500 bg-neutral-200 hover:bg-neutral-300  text-base  text-neutral-800 lg:w-44 lg:text-lg">
                 Learn more
               </a>
             </Link>
