@@ -75,11 +75,11 @@ function ContributorGrid({
 }
 
 export default function Contributors() {
-  let [contributors, setContributors] = useState<{[name: string]: IUser[]}>({
+  let [contributors, setContributors] = useState<{ [name: string]: IUser[] }>({
     healthDeck: [],
   });
 
-  async function getContributors(repo: string){
+  async function getContributors(repo: string) {
     return fetch(`https://api.github.com/repos/openkindhq/${repo}/contributors`)
       .then((resp) => resp.json())
       .then((data: IUser[]) => {
@@ -100,7 +100,7 @@ export default function Contributors() {
         healthDeck: await getContributors("healthdeck"),
       });
     })();
-  });
+  }, []);
   return (
     <>
       <Head>
