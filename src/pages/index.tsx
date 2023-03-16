@@ -56,7 +56,7 @@ export default function Home() {
               passHref
               legacyBehavior
             >
-              <a className="bg-neutral-2 flex h-11 w-32  items-center justify-center rounded-lg border border-neutral-500 bg-neutral-200 hover:bg-neutral-300  text-base  text-neutral-800 lg:w-44 lg:text-lg">
+              <a className="bg-neutral-2 flex h-11 w-32  items-center justify-center rounded-lg border border-neutral-500 bg-neutral-200 text-base  text-neutral-800  hover:bg-neutral-300 lg:w-44 lg:text-lg">
                 Learn more
               </a>
             </Link>
