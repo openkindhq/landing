@@ -67,7 +67,7 @@ function ContributorGrid({
       <h1 className="font-heading text-2xl font-medium text-neutral-300">
         {title}
       </h1>
-      <div className="flex space-x-2 space-y-2 rounded-md border-[0.25px] border-neutral-800 p-4 lg:w-4/5">
+      <div className="flex space-x-2 rounded-md border-[0.25px] border-neutral-800 p-4 lg:w-4/5">
         {children}
       </div>
     </div>
@@ -75,11 +75,11 @@ function ContributorGrid({
 }
 
 export default function Contributors() {
-  let [contributors, setContributors] = useState<{[name: string]: IUser[]}>({
+  let [contributors, setContributors] = useState<{ [name: string]: IUser[] }>({
     healthDeck: [],
   });
 
-  async function getContributors(repo: string){
+  async function getContributors(repo: string) {
     return fetch(`https://api.github.com/repos/openkindhq/${repo}/contributors`)
       .then((resp) => resp.json())
       .then((data: IUser[]) => {
