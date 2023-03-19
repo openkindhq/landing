@@ -100,7 +100,7 @@ export default function Contributors() {
         healthDeck: await getContributors("healthdeck"),
       });
     })();
-  });
+  }, []);
   return (
     <>
       <Head>
