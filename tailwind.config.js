@@ -10,7 +10,7 @@ module.exports = {
     extend: {
       fontFamily: {
         main: ["var(--font-poppins)", fontFamily.sans],
-        heading: ["var(--font-rhd)", fontFamily.sans],
+        heading: ["var(--font-dm)", fontFamily.sans],
       },
     },
   },

@@ -112,7 +112,7 @@ export default function Contributors() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <main className="h-screen space-y-6 bg-slate-900 px-6 py-12 lg:py-24 lg:px-24">
+      <main className="h-screen space-y-6 bg-[#111] px-6 py-12 lg:py-24 lg:px-24">
         <ContributorGrid title="Team">
           <AvatarPopover
             login="shhivv"
