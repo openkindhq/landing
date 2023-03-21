@@ -30,23 +30,17 @@ export default function Home() {
                 </div>
               </div>
             </div>
-              <div className="flex w-full justify-center lg:text-xl space-x-4 py-8">
-              <Link
-                  href="#c"
-                  label="Learn more"
-                  samePage
-                /><Link
-                href="/contributors"
-                label="Contributors"
-              />
-              </div>
+            <div className="flex w-full justify-center space-x-4 py-8 lg:text-xl">
+              <Link href="#c" label="Learn more" samePage />
+              <Link href="/contributors" label="Contributors" />
+            </div>
           </div>
         </div>
 
         <div className="flex justify-center" id="c">
           <div className="flex w-4/5 flex-col py-24 lg:w-2/3">
             <section className="text-base text-neutral-400">
-              By leveraging modern day technologies and the power of
+              By leveraging modern-day technologies and the power of
               collaborative development, we develop solutions to global issues
               that actually need attention.
               <div className="my-4 flex w-4/5 flex-col space-y-3 border-l-4 border-neutral-500 px-8 py-4">
@@ -72,7 +66,7 @@ export default function Home() {
             </section>
             <div>
               <h1 className="py-8 text-2xl font-bold text-neutral-400">
-                Initatives
+                Initiatives
               </h1>
               <div className="space-y-8">
                 <section className="space-y-2 py-0 px-8">
@@ -107,10 +101,10 @@ export default function Home() {
                     For the news that actually matters.
                   </h2>
                   <p className="text-sm text-neutral-400">
-                    Modern day news sources are extensively polluted with
+                    Modern news sources are extensively polluted with
                     information that serves no real purpose, we hope to refine
                     and publish news that actually matters such as international
-                    current affairs and life changing events.
+                    current affairs and life-changing events.
                   </p>
                   <div className="flex space-x-2">
                     <Link
@@ -150,12 +144,12 @@ export default function Home() {
 
                 <div className="space-y-2">
                   <p>
-                    We hope to make our initatives accessible around the globe
+                    We hope to make our Initiatives accessible around the globe
                   </p>
 
                   <Link
                     href="https://github.com/openkindhq/"
-                    label="Help tranlsate"
+                    label="Help translate"
                   />
                 </div>
 
