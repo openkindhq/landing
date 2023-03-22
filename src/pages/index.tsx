@@ -25,7 +25,7 @@ export default function Home() {
                 <h1 className="flex justify-start">Global issues,</h1>
                 <div className="flex justify-end">
                   <span>
-                    solved <u>collaboratively</u>
+                    <u>collaboratively</u> solved
                   </span>
                 </div>
               </div>
