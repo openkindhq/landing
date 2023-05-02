@@ -12,6 +12,11 @@ module.exports = {
         main: ["var(--font-poppins)", fontFamily.sans],
         heading: ["var(--font-dm)", fontFamily.sans],
       },
+      colors: {
+        background: "#161717",
+        foreground: "#1d1c1d",
+        text: "#edecec",
+      }
     },
   },
   plugins: [],

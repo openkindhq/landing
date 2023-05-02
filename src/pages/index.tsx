@@ -14,7 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <main className="h-full space-y-6 bg-[#111]">
+      <main className="h-full space-y-6 bg-background">
         <div className="flex h-screen w-full items-center justify-center">
           <div className="w-4/5 space-y-4">
             <h1 className="font-heading text-xl text-neutral-400 lg:text-3xl">
@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className="flex justify-center" id="c">
           <div className="flex w-4/5 flex-col py-24 lg:w-2/3">
-            <section className="text-base text-neutral-400">
+            <section className="text-base text-text">
               By leveraging modern-day technologies and the power of
               collaborative development, we develop solutions to global issues
               that actually need attention.
@@ -65,7 +65,7 @@ export default function Home() {
               </div>
             </section>
             <div>
-              <h1 className="py-8 text-2xl font-bold text-neutral-400">
+              <h1 className="py-8 text-2xl font-bold text-text">
                 Initiatives
               </h1>
               <div className="space-y-8">
@@ -93,26 +93,6 @@ export default function Home() {
                     />
                   </div>
                 </section>
-                <section className="space-y-2 px-8 py-0">
-                  <h1 className="font-heading text-xl text-neutral-300">
-                    OpenKind News
-                  </h1>
-                  <h2 className="text-base text-neutral-400">
-                    For the news that actually matters.
-                  </h2>
-                  <p className="text-sm text-neutral-400">
-                    Modern news sources are extensively polluted with
-                    information that serves no real purpose, we hope to refine
-                    and publish news that actually matters such as international
-                    current affairs and life-changing events.
-                  </p>
-                  <div className="flex space-x-2">
-                    <Link
-                      href="https://instagram.com/openkindnews"
-                      label="View"
-                    />
-                  </div>
-                </section>
                 <section className="flex space-x-2 py-0 px-8 text-neutral-400">
                   <p>Have an idea that belongs here?</p>
                   <Link
@@ -123,7 +103,7 @@ export default function Home() {
               </div>
             </div>
             <div className="py-8">
-              <h1 className="text-2xl font-bold text-neutral-400">
+              <h1 className="text-2xl font-bold text-text">
                 Get involved
               </h1>
               <div className="space-y-8 p-8 text-neutral-400">
