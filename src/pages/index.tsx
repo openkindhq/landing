@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>OpenKind | Global issues, collaboratively solved</title>
+        <title>OpenKind | Impactful solutions, powered by collaborative development</title>
         <meta
           name="description"
           content="We build effective solutions to global issues through collaboration"
@@ -22,15 +22,15 @@ export default function Home() {
             </h1>
             <div className="flex font-heading">
               <div className="w-screen text-3xl font-black uppercase text-neutral-200 lg:text-7xl">
-                <h1 className="flex justify-start">Global issues,</h1>
+                <h1 className="flex justify-start">Impactful solutions,</h1>
                 <div className="flex justify-end">
                   <span>
-                    <u>collaboratively</u> solved
+                    powered by collaborative development
                   </span>
                 </div>
               </div>
             </div>
-            <div className="flex w-full justify-center space-x-4 py-8 lg:text-xl">
+            <div className="flex w-full space-x-4 py-8 lg:text-xl">
               <Link href="#c" label="Learn more" samePage />
               <Link href="/contributors" label="Contributors" />
             </div>
@@ -65,9 +65,7 @@ export default function Home() {
               </div>
             </section>
             <div>
-              <h1 className="py-8 text-2xl font-bold text-text">
-                Initiatives
-              </h1>
+              <h1 className="py-8 text-2xl font-bold text-text">Initiatives</h1>
               <div className="space-y-8">
                 <section className="space-y-2 py-0 px-8">
                   <h1 className="font-heading text-xl text-neutral-300">
@@ -103,9 +101,7 @@ export default function Home() {
               </div>
             </div>
             <div className="py-8">
-              <h1 className="text-2xl font-bold text-text">
-                Get involved
-              </h1>
+              <h1 className="text-2xl font-bold text-text">Get involved</h1>
               <div className="space-y-8 p-8 text-neutral-400">
                 <div className="space-y-2">
                   <p>
