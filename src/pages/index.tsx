@@ -5,7 +5,9 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>OpenKind | Impactful solutions, powered by collaborative development</title>
+        <title>
+          OpenKind | Impactful solutions, powered by collaborative development
+        </title>
         <meta
           name="description"
           content="We build effective solutions to global issues through collaboration"
@@ -14,19 +16,19 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.svg" />
       </Head>
-      <main className="h-full space-y-6 bg-background">
+      <main className="h-full space-y-6 bg-black">
         <div className="flex h-screen w-full items-center justify-center">
           <div className="w-4/5 space-y-4">
-            <h1 className="font-heading text-xl text-neutral-400 lg:text-3xl">
-              Ξ OpenKind
+            <h1 className="font-headin text-white text-xl">
+              Ξ Coming soon
             </h1>
+            {/* 
+       
             <div className="flex font-heading">
               <div className="w-screen text-3xl font-black uppercase text-neutral-200 lg:text-7xl">
                 <h1 className="flex justify-start">Impactful solutions,</h1>
                 <div className="flex justify-end">
-                  <span>
-                    powered by collaborative development
-                  </span>
+                  <span>powered by collaborative development</span>
                 </div>
               </div>
             </div>
@@ -138,7 +140,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>
